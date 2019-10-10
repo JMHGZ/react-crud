@@ -38,7 +38,7 @@ class EditPostPage extends Component {
             <label>Title (required)</label>
             <input
               className="form-control"
-              name="name"
+              name="title"
               value={this.state.formData.title}
               onChange={this.handleChange}
               required
